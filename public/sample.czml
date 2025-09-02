@@ -1,0 +1,45 @@
+[
+  {
+    "id": "document",
+    "version": "1.0",
+    "clock": {
+      "interval": "2025-08-25T00:00:00Z/2025-08-25T00:01:00Z",
+      "currentTime": "2025-08-25T00:00:00Z",
+      "multiplier": 1,
+      "step": "SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id": "Satellite",
+    "availability": "2025-08-25T00:00:00Z/2025-08-25T00:01:00Z",
+    "position": {
+      "epoch": "2025-08-25T00:00:00Z",
+      "cartographicDegrees": [
+         0, -122.0, 37.0, 100000,
+        10, -121.5, 37.1, 100000,
+        20, -121.0, 37.2, 100000,
+        30, -120.5, 37.3, 100000,
+        40, -120.0, 37.4, 100000,
+        50, -119.5, 37.5, 100000,
+        60, -119.0, 37.6, 100000
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [255, 80, 0, 255]
+      }
+    },
+    "model": {
+      "gltf": "rocketman.glb",
+      "scale": 1.0,
+      "minimumPixelSize": 128
+    },
+    "label": {
+      "text": "Satellite",
+      "scale": 0.8,
+       "verticalOrigin": "TOP",
+      "pixelOffset": [0, -12]
+    }
+  }
+]

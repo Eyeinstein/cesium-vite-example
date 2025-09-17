@@ -39,6 +39,7 @@
     "vite-plugin-static-copy": "^3.1.2"
   },
   "dependencies": {
+    "@cesiumgs/ion-sdk-sensors": "file:ion-sdk-sensors",
     "cesium": "^1.114.0"
   },
   "lint-staged": {
